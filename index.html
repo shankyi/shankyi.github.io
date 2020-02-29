@@ -10,25 +10,38 @@
 
     <!-- css  -->
     <link rel="stylesheet" href="/css/style.css">
+
+
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
     <body>
-        <nav>
-            <div class="logo"> 
-                <h4>The nav bar</h4>
+        <nav id="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="/images/logo.png" height="30vh" alt="" class="logoimg"> 
+                <h4>shanky .</h4></a>
             </div>
             <ul class="nav-link">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#home" class="active">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#">Project</a>
+                    <a href="#project">Project</a>
                 </li>
                 <li>
-                    <a href="#">Blog</a>
+                    <a href="#resume">Resume</a>
                 </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+               
             </ul>
             <div class="burger">
                 <div class="line1"></div>
@@ -37,6 +50,12 @@
             </div>
       
         </nav>
+        <div id="home" class="sections"><h1>Home</h1></div>
+        <div id="about" class="section"><h1>About</h1></div>
+        <div id="project" class="section"><h1>Project</h1></div>
+        <div id="resume" class="section"><h1>Resume</h1></div>
+        <div id="blog" class="section"><h1>Blog</h1></div>
+        <div id="contact" class="section"><h1>Contact</h1></div>
 
         <script src="/js/main.js"></script>
     </body>
