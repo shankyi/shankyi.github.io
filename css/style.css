@@ -48,8 +48,9 @@
     color:#000000;
     text-decoration: none;
     text-transform: uppercase;
-    outline: none;s
+    outline: none;
 }
+
 .burger{
     display: none;
 }
