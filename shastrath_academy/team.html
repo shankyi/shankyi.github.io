@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://use.fontawesome.com/561f3a005c.js"></script>
+    <title>Shastrarth Academy</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+
+    <!-- top section with social icons -->
+    <section class="top-section">
+        <div class="section-left">
+			<a href="#"><i class="fa fa-phone" aria-hidden="true"><b>&nbsp;&nbsp;+91&nbsp;91361&nbsp;93331</b></i></a>&nbsp;&nbsp;&nbsp;
+			<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"><b>&nbsp;&nbsp;info@shastrarth.academy</b></i></a>
+		</div>
+		<div class="section-right">
+			<a href="#"><img src="images/whatsapp_20x20.png" alt="Whatsapp"></a>
+			<a href="#"><img src="images/facebook_20x20.png" alt="Facebook"></a>
+			<a href="#"><img src="images/instagram_20x20.png" alt="Instagram"></a>
+			<a href="#"><img src="images/linkedin_20x20.png" alt="LinkedIn"></a>
+			<a href="#"><img src="images/google_20x20.png" alt="Google"></a>
+			<a href="#"><img src="images/urbanpro_20x20.png" alt="UrbanPro"></a>
+			<a href="#"><img src="images/twitter_20x20.png" alt="Twitter"></a>
+		</div>
+    </section>
+    <!-- top section with social icons end -->
+
+
+
+
+
+    <!-- navbar start -->
+    <nav>
+    <div id="logo">
+        <a href="index.html"><img src="./images/logov2_35x35.png" alt="logo"></a>
+    </div>
+
+    <label for="drop" class="toggle">Menu</label>
+    <input type="checkbox" id="drop" />
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+         
+          
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Archives</a></li>
+        </ul>
+    </nav>
+    <!-- navbar ends -->
+
+<HR style="margin: 0;"></HR>
+    <style>
+        
+.sa-team{
+    display: flex;
+    flex-direction: row;
+}
+
+.sa-team-right{
+    width: 55%;
+    background-color: #ffffff;
+    padding: 15px;
+    /* justify-content: center; */
+    /* align-content: center; */
+    text-align: center;
+    
+}
+.sa-team-left{
+    width: 45%;
+    padding: 0px;
+
+
+}
+.sa-team-right div{
+    padding: 25px;
+}
+
+
+@media all and (max-width : 768px) { 
+    .sa-contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sa-contact-form{
+        width: 100%;
+        
+        padding: 15px;
+        /* justify-content: center; */
+        /* align-content: center; */
+        text-align: center;
+        
+    }
+    .sa-contact-left{
+        width: 100%;
+        padding: 15px;
+    }
+}
+    </style>
+
+    <!-- Team -->
+    <div class="sa-team">
+        <div class="sa-team-left">
+           
+            <img src="images/annshul.png" alt="">
+
+        </div>
+        <div class="sa-team-right">
+            <div>
+                <h2>MR. ANSHUL SUNIL PAWASKAR</h2>
+            </div>
+            <hr >
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Reiciendis adipisci autem quia repellendus commodi debitis fugit,
+                  earum laborum cupiditate, doloribus facilis nobis odio tenetur numquam? 
+                  Vel minus magni beatae error.
+            </div>
+            
+        </div>
+    </div>
+    <hr style="margin:0">
+    <!-- contact us part with form -->
+
+
+
+
+
+
+
+    <!-- footer goes here  -->
+
+	<footer class="footer">
+        <div>
+            <ul class="footer-list">
+                <li><a href="#"> Courses</a></li>
+                <li><a href="team.html"> Team</a></li>
+                <li><a href="#"> Services</a></li>
+                <li><a href="#"> Archives</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="footer-list">
+                <li><a href="#"> Student Ambassadors</a></li>
+                <li><a href="#"> Career</a></li>
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#"> Blog</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="footer-list">
+                <li><a href="contactus.html"> Contact Us</a></li>
+                <li><a href="#"> Privacy Policy</a></li>
+                <li><a href="#"> Terms & Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <style>
+                #map{
+                    height: 200px;
+                    width: 100%;
+                }
+            </style>
+            <div id="map"></div>
+            <script>
+                // Initialize and add the map
+                    function initMap() {
+                // The location of Uluru
+                var uluru = {lat: 19.249212, lng: 72.8238633};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 10, center: uluru});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: uluru, map: map});
+                }
+            </script>
+                <!--Load the API from the specified URL
+                * The async attribute allows the browser to render the page while the API loads
+                * The key parameter will contain your own API key (which is not needed for this tutorial)
+                * The callback parameter executes the initMap() function
+                -->
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJNh1-7dmx31z2XPhhA8LE9Qg0g2wBkMs&callback=initMap">
+            </script>
+        </div>
+
+    </footer>
+    <hr style="margin: 0;">
+    <!-- footer ends here -->
+
+
+
+
+
+    <section class="sa-bottom">
+        <div>
+            <p>Copyright 2020. All right reserved by Shastrarth Academy</p>
+		</div>
+		<div>
+            <p>Maintained and developed by TECH COMPANY</p>
+		</div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+</body>
+
+</html>

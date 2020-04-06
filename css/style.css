@@ -48,7 +48,7 @@
     color:#000000;
     text-decoration: none;
     text-transform: uppercase;
-    outline: none;s
+    outline: none;
 }
 .burger{
     display: none;
@@ -70,7 +70,6 @@
 @media screen and (max-width:786px){
     body{
         overflow-x: hidden;
-
     }
     .nav-link{
         position: absolute;
